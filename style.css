@@ -5,9 +5,6 @@
   background-position: top;
 }
 
-.img-navbar {
-  height: 80px;
-}
 .nav-link {
   text-emphasis-color: black !important;
   font-size: 20px;
@@ -16,4 +13,42 @@
 
 a:hover {
   text-decoration: underline;
+}
+#demo.carousel {
+  max-width: 100%; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+/* Reducir el tamaño de las imágenes en el carrusel */
+#demo.carousel .carousel-item img {
+  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+  max-height: 500px; /* Ajusta este valor según tus necesidades */
+  width: auto; /* Mantén el ancho proporcional */
+  height: auto; /* Mantén la altura proporcional */
+  object-fit: cover; /* Escala la imagen para llenar el contenedor, recortando si es necesario */
+  filter: grayscale(20%);
+}
+
+/* Nosotros's page */
+h2 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.nleft {
+  background-image: url(imagen/Jorge\ sin\ fondo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  filter: grayscale(50%);
+  /* width: 50%; */
+  height: 300px;
+}
+
+.nright {
+  text-align: justify;
+  /* margin: 20px; */
+  padding: 20px;
 }
