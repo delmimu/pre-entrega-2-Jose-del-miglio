@@ -15,17 +15,16 @@ a:hover {
   text-decoration: underline;
 }
 #demo.carousel {
-  max-width: 100%; /* Ajusta este valor según tus necesidades */
-  margin: 0 auto; /* Centra el carrusel horizontalmente */
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-/* Reducir el tamaño de las imágenes en el carrusel */
 #demo.carousel .carousel-item img {
-  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
-  max-height: 500px; /* Ajusta este valor según tus necesidades */
-  width: auto; /* Mantén el ancho proporcional */
-  height: auto; /* Mantén la altura proporcional */
-  object-fit: cover; /* Escala la imagen para llenar el contenedor, recortando si es necesario */
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
   filter: grayscale(20%);
 }
 
@@ -51,4 +50,51 @@ h2 {
   text-align: justify;
   /* margin: 20px; */
   padding: 20px;
+}
+
+.art1 p {
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+}
+
+footer .redes {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: start;
+  font-size: 18px;
+}
+
+footer .redesSociales {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  display: inline-block;
+  margin: 10px;
+}
+
+footer a:hover {
+  color: blue;
 }
