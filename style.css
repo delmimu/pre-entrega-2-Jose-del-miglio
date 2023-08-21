@@ -1,0 +1,19 @@
+.navbar {
+  height: 150px;
+  background-image: url(imagen/abnner.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.img-navbar {
+  height: 80px;
+}
+.nav-link {
+  text-emphasis-color: black !important;
+  font-size: 20px;
+  text-shadow: 0 5px 5px black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
