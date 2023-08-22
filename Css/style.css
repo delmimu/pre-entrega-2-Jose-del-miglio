@@ -1,6 +1,6 @@
 .navbar {
   height: 150px;
-  background-image: url(imagen/abnner.jpg);
+  background-image: url(/imagen/abnner.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 0;
 }
 .nleft {
-  background-image: url(imagen/Jorge\ sin\ fondo.png);
+  background-image: url(/imagen/Jorge\ sin\ fondo.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto;
