@@ -6,7 +6,7 @@
 
 .navbar {
   height: 150px;
-  background-image: url(/imagen/abnner.jpg);
+  background-image: url(../imagen/abnner.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -36,7 +36,7 @@ a:hover {
 
 /* Nosotros's page */
 .jumbotron {
-  background-image: url(/imagen/Imagen\ de\ WhatsApp\ 2023-08-21\ a\ las\ 10.46.11.jpg);
+  background-image: url(../imagen/Imagen\ de\ WhatsApp\ 2023-08-21\ a\ las\ 10.46.11.jpg);
   filter: grayscale(60%);
   background-position: center;
   background-size: cover;
@@ -64,7 +64,7 @@ h2 {
   margin-bottom: 0;
 }
 .nleft {
-  background-image: url(/imagen/Jorge\ sin\ fondo.png);
+  background-image: url(../imagen/Jorge\ sin\ fondo.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto;
