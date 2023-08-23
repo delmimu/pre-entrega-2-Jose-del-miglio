@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 150px;
+  background-image: url(../imagen/abnner.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.nav-link {
+  text-emphasis-color: black !important;
+  font-size: 20px;
+  text-shadow: 0 5px 5px black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#demo.carousel {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+#demo.carousel .carousel-item img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+/* Nosotros's page */
+.jumbotron {
+  background-image: url(../imagen/Imagen\ de\ WhatsApp\ 2023-08-21\ a\ las\ 10.46.11.jpg);
+  filter: grayscale(60%);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  margin-top: 25px;
+}
+.jumbotron p {
+  color: white;
+  font-size: 20px;
+  text-align: end;
+  background-color: rgba(0, 0, 0, 0.614);
+}
+h1 {
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px white;
+  background-color: rgba(0, 0, 0, 0.614);
+  text-align: right;
+}
+
+h2 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.nleft {
+  background-image: url(../imagen/Jorge\ sin\ fondo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  filter: grayscale(50%);
+  /* width: 50%; */
+  height: 300px;
+}
+
+.nright {
+  text-align: justify;
+  /* margin: 20px; */
+  padding: 20px;
+}
+
+.art1 p {
+  margin-top: 50px;
+}
+
+img {
+  height: 450px;
+  width: 100%;
+}
+
+/* Página servicios */
+
+.sec-servicios {
+  background-image: url(../imagen/pink-hair-g7c0e545dc_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sec-servicios dl {
+  margin-bottom: 20px;
+}
+
+.sec-servicios dt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sec-servicios dd {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+}
+
+footer .redes {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: start;
+  font-size: 18px;
+}
+
+footer .redesSociales {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  display: inline-block;
+  margin: 10px;
+}
+
+footer a:hover {
+  color: blue;
+}
+/* página productos */
+
+.brands-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px;
+}
+
+.brands-list li {
+  display: inline-block;
+  margin-right: 21.5px;
+}
+
+.brands-list img {
+  width: auto;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translate(0, 1px);
+}
+
+/* Página contacto */
+
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-content {
+  display: block;
+  overflow: hidden;
+}
+
+.contact-form {
+  width: 50%;
+  float: left;
+}
+
+.contact-form form {
+  max-width: 400px;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.contact-form form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.contact-img {
+  width: 50%;
+  float: right;
+}
+
+.contact-img img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact-info {
+  clear: both;
+  margin-top: 30px;
+}
+
+.contact-info iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
