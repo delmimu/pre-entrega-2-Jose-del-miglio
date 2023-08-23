@@ -161,6 +161,10 @@ footer a:hover {
 }
 /* página productos */
 
+section {
+  height: 600px;
+}
+
 .brands-list {
   list-style: none;
   padding: 0;
