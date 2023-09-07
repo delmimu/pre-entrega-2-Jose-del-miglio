@@ -36,7 +36,7 @@ a:hover {
 
 /* Nosotros's page */
 .jumbotron {
-  background-image: url(../imagen/Imagen\ de\ WhatsApp\ 2023-08-21\ a\ las\ 10.46.11.jpg);
+  background-image: url(../imagen/lavapelo.webp);
   filter: grayscale(60%);
   background-position: center;
   background-size: cover;
@@ -46,7 +46,7 @@ a:hover {
 .jumbotron p {
   color: white;
   font-size: 20px;
-  text-align: end;
+  text-align: end bottom;
   background-color: rgba(0, 0, 0, 0.614);
 }
 h1 {
@@ -80,7 +80,8 @@ h2 {
 }
 
 .art1 p {
-  margin-top: 50px;
+  margin-top: 30px;
+  font-size: larger;
 }
 
 img {
