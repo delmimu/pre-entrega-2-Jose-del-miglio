@@ -43,12 +43,14 @@ a:hover {
   height: 450px;
   margin-top: 25px;
 }
+
 .jumbotron p {
   color: white;
   font-size: 20px;
-  text-align: end bottom;
+  text-align: right;
   background-color: rgba(0, 0, 0, 0.614);
 }
+
 h1 {
   color: white;
   text-shadow: 0 0 5px black, 0 0 5px white;
@@ -63,6 +65,7 @@ h2 {
   padding: 20px;
   margin-bottom: 0;
 }
+
 .nleft {
   background-image: url(../imagen/Jorge\ sin\ fondo.png);
   background-repeat: no-repeat;
@@ -87,6 +90,25 @@ h2 {
 img {
   height: 450px;
   width: 100%;
+}
+
+.d-inline-flex {
+  padding: 10px;
+  margin: 10px;
+  height: 650px;
+  width: 450px;
+}
+
+@media (min-width: 601px) {
+  .d-inline-flex {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 550px) {
+  .d-inline-flex {
+    max-width: 100%;
+  }
 }
 
 /* Página servicios */
