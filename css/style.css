@@ -160,30 +160,48 @@ footer li {
 footer a:hover {
   color: blue;
 }
+
 /* página productos */
 
-section {
-  height: 600px;
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.brands-list {
-  list-style: none;
-  padding: 0;
-  margin: 40px;
+.galeria-item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.brands-list li {
-  display: inline-block;
-  margin-right: 21.5px;
+.galeria-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-.brands-list img {
-  width: auto;
-  height: 200px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  transform: translate(0, 1px);
+.logok {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 601px) {
+  .logok {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 550px) {
+  .logok {
+    max-width: 100%;
+  }
+
+  .galeria-item {
+    flex: 0 0 100%;
+    margin: 10px 0;
+  }
 }
 
 /* Página contacto */
