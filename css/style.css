@@ -5,8 +5,8 @@
 }
 
 .navbar {
-  height: 150px;
-  background-image: url(../imagen/abnner.jpg);
+  height: 200px;
+  background-image: url(../imagen/baner.png);
   background-size: cover;
   background-position: top;
 }
@@ -22,7 +22,7 @@ a:hover {
 }
 
 #demo.carousel {
-  max-width: 100%;
+  max-width: 50%;
   margin: 20px auto;
 }
 
@@ -48,14 +48,14 @@ a:hover {
 @media (min-width: 601px) {
   #demo.carousel .carousel-item img {
     max-width: 100%;
-    max-height: 950px;
+    max-height: 700px;
   }
 }
 
 @media (max-width: 950px) {
   #demo.carousel .carousel-item img {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 500px;
   }
 }
 
